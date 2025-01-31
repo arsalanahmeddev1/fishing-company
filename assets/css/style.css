@@ -2,25 +2,25 @@
   --primary-theme: #c2a45c;
   --secondry-theme: #000;
   --grey: #585353;
-  --dark-grey: #2F2E2E;
-  --dark-green: #001D08;
+  --dark-grey: #2f2e2e;
+  --dark-green: #001d08;
   --sm-color: #554343;
   --banner-color: 2B2A2A;
   --grey-600: #646464;
   --default-color: #fff;
   --black: #000000;
-  --light-black: #1E1E1E;
+  --light-black: #1e1e1e;
   --primary-font: "Poppins", sans-serif;
-  --secondry-font: '';
-  --text-1: .1rem;
-  --text-2: .2rem;
-  --text-3: .3rem;
-  --text-4: .4rem;
-  --text-5: .5rem;
-  --text-6: .6rem;
-  --text-7: .7rem;
-  --text-8: .8rem;
-  --text-9: .9rem;
+  --secondry-font: "";
+  --text-1: 0.1rem;
+  --text-2: 0.2rem;
+  --text-3: 0.3rem;
+  --text-4: 0.4rem;
+  --text-5: 0.5rem;
+  --text-6: 0.6rem;
+  --text-7: 0.7rem;
+  --text-8: 0.8rem;
+  --text-9: 0.9rem;
   --text-10: 1rem;
   --text-11: 1.1rem;
   --text-12: 1.2rem;
@@ -165,20 +165,27 @@
   font-size: 62.5%;
 }
 
-
-
 @font-face {
-  font-family: 'Agency-reg';
+  font-family: "Agency-reg";
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/AGENCYB_1.TTF') format('woff');
-  }
+  src: url("../fonts/AGENCYB_1.TTF");
+}
 @font-face {
-  font-family: 'Agency-bold';
+  font-family: "Agency-bold";
   font-style: normal;
   font-weight: bold;
-  src: url('../fonts/AGENCYR_1.TTF') format('woff');
-  }
+  src: url("../fonts/AGENCYR_1.TTF");
+}
+@font-face {
+  font-family: "Century-italic";
+  font-style: italic;
+  src: url("../fonts/Century\ Old\ Style\ Italic.otf");
+}
+@font-face {
+  font-family: "Century-std-bold";
+  src: url("../fonts/Century\ Old\ Style\ Std\ Bold.otf");
+}
 /* @font-face {
   font-family: 'Agency';
   font-style: normal;
@@ -202,7 +209,9 @@ body {
   font-family: "Agency-reg";
   font-size: var(--text-16);
 }
-
+img {
+  max-width: 100%;
+}
 /* (].@ymwJX,wB */
 /* globals start */
 .row {
@@ -246,14 +255,48 @@ a {
 /* header end */
 /* banner */
 .hero-banner {
-  background: url('../images/banner-bg.jpg') no-repeat center / cover;
-  min-height: 80vh;
+  background: url("../images/banner-bg.jpg") no-repeat center / cover;
+  padding: var(--text-150) 0 50rem;
 }
 .hero-banner h1 {
-
+  font-size: var(--text-50);
+  line-height: 0.8;
 }
 
-@media (min-width: 1800px) {
-  
+.hero-banner h1 span {
+  font-size: var(--text-32);
+}
+.sec-2 .img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.sec-2 .img-wrapper img {
+  width: 100%;
+  max-width: 30rem;
+}
+.sec-2 .container {
+  padding: 0 var(--text-56);
+}
+
+.sec-2 p.century {
+  font-family: "Century-italic";
+  color: var(--default-color);
+  font-size: var(--text-25);
+  text-align: center;
+  font-style: italic;
+}
+.sec-3 h2 {
+  font-family: "Century-std-bold";
+  color: var(--black);
+}
+
+.sec-3 h2 span {
+  font-weight: 300 !important;
+}
+
+@media (min-width: 1570px) {
+  .container {
+    max-width: 1680px;
+  }
 }
 /* banner end */

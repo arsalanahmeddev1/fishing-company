@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row align-items-center justify-content-between">
         <div class="col-lg-4">
-          <div class="logo d-flex align-items-center justify-content-between">
+          <div class="logo d-flex align-items-center gap-20">
             <img src="./assets/images/logo.png" alt="">
             <span class="text-white fs-13">CASTING ATTITUDE SINCE 1984
             </span>
