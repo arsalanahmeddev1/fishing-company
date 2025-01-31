@@ -1,0 +1,259 @@
+:root {
+  --primary-theme: #c2a45c;
+  --secondry-theme: #000;
+  --grey: #585353;
+  --dark-grey: #2F2E2E;
+  --dark-green: #001D08;
+  --sm-color: #554343;
+  --banner-color: 2B2A2A;
+  --grey-600: #646464;
+  --default-color: #fff;
+  --black: #000000;
+  --light-black: #1E1E1E;
+  --primary-font: "Poppins", sans-serif;
+  --secondry-font: '';
+  --text-1: .1rem;
+  --text-2: .2rem;
+  --text-3: .3rem;
+  --text-4: .4rem;
+  --text-5: .5rem;
+  --text-6: .6rem;
+  --text-7: .7rem;
+  --text-8: .8rem;
+  --text-9: .9rem;
+  --text-10: 1rem;
+  --text-11: 1.1rem;
+  --text-12: 1.2rem;
+  --text-13: 1.3rem;
+  --text-14: 1.4rem;
+  --text-15: 1.5rem;
+  --text-16: 1.6rem;
+  --text-17: 1.7rem;
+  --text-18: 1.8rem;
+  --text-19: 1.9rem;
+  --text-20: 2rem;
+  --text-21: 2.1rem;
+  --text-22: 2.2rem;
+  --text-23: 2.3rem;
+  --text-24: 2.4rem;
+  --text-25: 2.5rem;
+  --text-26: 2.6rem;
+  --text-27: 2.7rem;
+  --text-28: 2.8rem;
+  --text-29: 2.9rem;
+  --text-30: 3rem;
+  --text-31: 3.1rem;
+  --text-32: 3.2rem;
+  --text-33: 3.3rem;
+  --text-34: 3.4rem;
+  --text-35: 3.5rem;
+  --text-36: 3.6rem;
+  --text-37: 3.7rem;
+  --text-38: 3.8rem;
+  --text-39: 3.9rem;
+  --text-40: 4rem;
+  --text-41: 4.1rem;
+  --text-42: 4.2rem;
+  --text-43: 4.3rem;
+  --text-44: 4.4rem;
+  --text-45: 4.5rem;
+  --text-46: 4.6rem;
+  --text-47: 4.7rem;
+  --text-48: 4.8rem;
+  --text-49: 4.9rem;
+  --text-50: 5rem;
+  --text-51: 5.1rem;
+  --text-52: 5.2rem;
+  --text-53: 5.3rem;
+  --text-54: 5.4rem;
+  --text-55: 5.5rem;
+  --text-56: 5.6rem;
+  --text-57: 5.7rem;
+  --text-58: 5.8rem;
+  --text-59: 5.9rem;
+  --text-60: 6rem;
+  --text-61: 6.1rem;
+  --text-62: 6.2rem;
+  --text-63: 6.3rem;
+  --text-64: 6.4rem;
+  --text-65: 6.5rem;
+  --text-66: 6.6rem;
+  --text-67: 6.7rem;
+  --text-68: 6.8rem;
+  --text-69: 6.9rem;
+  --text-70: 7rem;
+  --text-71: 7.1rem;
+  --text-72: 7.2rem;
+  --text-73: 7.3rem;
+  --text-74: 7.4rem;
+  --text-75: 7.5rem;
+  --text-76: 7.6rem;
+  --text-77: 7.7rem;
+  --text-78: 7.8rem;
+  --text-79: 7.9rem;
+  --text-80: 8rem;
+  --text-81: 8.1rem;
+  --text-82: 8.2rem;
+  --text-83: 8.3rem;
+  --text-84: 8.4rem;
+  --text-85: 8.5rem;
+  --text-86: 8.6rem;
+  --text-87: 8.7rem;
+  --text-88: 8.8rem;
+  --text-89: 8.9rem;
+  --text-90: 9rem;
+  --text-91: 9.1rem;
+  --text-92: 9.2rem;
+  --text-93: 9.3rem;
+  --text-94: 9.4rem;
+  --text-95: 9.5rem;
+  --text-96: 9.6rem;
+  --text-97: 9.7rem;
+  --text-98: 9.8rem;
+  --text-99: 9.9rem;
+  --text-100: 10rem;
+  --text-101: 10.1rem;
+  --text-102: 10.2rem;
+  --text-103: 10.3rem;
+  --text-104: 10.4rem;
+  --text-105: 10.5rem;
+  --text-106: 10.6rem;
+  --text-107: 10.7rem;
+  --text-108: 10.8rem;
+  --text-109: 10.9rem;
+  --text-110: 11rem;
+  --text-111: 11.1rem;
+  --text-112: 11.2rem;
+  --text-113: 11.3rem;
+  --text-114: 11.4rem;
+  --text-115: 11.5rem;
+  --text-116: 11.6rem;
+  --text-117: 11.7rem;
+  --text-118: 11.8rem;
+  --text-119: 11.9rem;
+  --text-120: 12rem;
+  --text-121: 12.1rem;
+  --text-122: 12.2rem;
+  --text-123: 12.3rem;
+  --text-124: 12.4rem;
+  --text-125: 12.5rem;
+  --text-126: 12.6rem;
+  --text-127: 12.7rem;
+  --text-128: 12.8rem;
+  --text-129: 12.9rem;
+  --text-130: 13rem;
+  --text-131: 13.1rem;
+  --text-132: 13.2rem;
+  --text-133: 13.3rem;
+  --text-134: 13.4rem;
+  --text-135: 13.5rem;
+  --text-136: 13.6rem;
+  --text-137: 13.7rem;
+  --text-138: 13.8rem;
+  --text-139: 13.9rem;
+  --text-140: 14rem;
+  --text-141: 14.1rem;
+  --text-142: 14.2rem;
+  --text-143: 14.3rem;
+  --text-144: 14.4rem;
+  --text-145: 14.5rem;
+  --text-146: 14.6rem;
+  --text-147: 14.7rem;
+  --text-148: 14.8rem;
+  --text-149: 14.9rem;
+  --text-150: 15rem;
+  font-size: 62.5%;
+}
+
+
+
+@font-face {
+  font-family: 'Agency-reg';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/AGENCYB_1.TTF') format('woff');
+  }
+@font-face {
+  font-family: 'Agency-bold';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/AGENCYR_1.TTF') format('woff');
+  }
+/* @font-face {
+  font-family: 'Agency';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/AGENCYB.TTF') format('woff');
+  } */
+::-webkit-scrollbar {
+  width: var(--text-7);
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ececec;
+  border-radius: var(--text-10);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondry-theme);
+  border-radius: var(--text-10);
+}
+body {
+  font-family: "Agency-reg";
+  font-size: var(--text-16);
+}
+
+/* (].@ymwJX,wB */
+/* globals start */
+.row {
+  --bs-gutter-x: var(--text-30);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+a,
+p,
+span,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+.header {
+  background-color: var(--black);
+  padding: var(--text-20) 0;
+}
+.primary-nav a {
+  color: var(--default-color);
+  font-size: var(--text-25);
+}
+.logo span {
+  letter-spacing: 2px;
+}
+/* header end */
+/* banner */
+.hero-banner {
+  background: url('../images/banner-bg.jpg') no-repeat center / cover;
+  min-height: 80vh;
+}
+.hero-banner h1 {
+
+}
+
+@media (min-width: 1800px) {
+  
+}
+/* banner end */
