@@ -14,7 +14,7 @@ include('./include/header.php')
 
 <section class="sec-2 bg-black py-50">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center gy-5 gy-lg-0">
       <div class="col-lg-3">
         <div class="img-wrapper">
           <img src="./assets/images/section-2-img-1.jpg" alt="Image">
@@ -90,7 +90,7 @@ include('./include/header.php')
 
 <section class="footer py-10">
   <div class="container">
-    <div class="row">
+    <div class="row gy-5 gy-lg-0">
       <div class="col-lg-4 mx-auto">
         <div class="img-wrapper">
           <img src="./assets/images/footer-logo.png" alt="Footer Logo">
