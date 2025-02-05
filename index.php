@@ -9,16 +9,16 @@ include('./include/header.php')
       <h1 class="text-white">Welcome to Fuck You Fishing ! <br> <span>Casting Attitude Since 1984</span></h1>
     </div>
   </div>
-      <div class="hero-banner-slider">
-        <div>
-          <img src="./assets/images/banner-bg.jpg" alt="">
-        </div>
-        <div>
-          <img src="./assets/images/banner-bg.jpg" alt="">
-        </div>
-        <div>
-          <img src="./assets/images/banner-bg.jpg" alt="">
-        </div>
+  <div class="hero-banner-slider">
+    <div>
+      <img src="./assets/images/banner-bg.jpg" alt="">
+    </div>
+    <div>
+      <img src="./assets/images/banner-bg.jpg" alt="">
+    </div>
+    <div>
+      <img src="./assets/images/banner-bg.jpg" alt="">
+    </div>
   </div>
   </div>
 </section>
