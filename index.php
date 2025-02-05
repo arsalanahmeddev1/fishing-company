@@ -3,18 +3,29 @@ $page_title = 'Home';
 include('./include/head.php');
 include('./include/header.php')
 ?>
-<section class="hero-banner">
-  <div class="container">
+<section class="hero-banner position-relative">
+  <div class="container position-relative">
     <div class="row">
       <h1 class="text-white">Welcome to Fuck You Fishing ! <br> <span>Casting Attitude Since 1984</span></h1>
     </div>
+  </div>
+      <div class="hero-banner-slider">
+        <div>
+          <img src="./assets/images/banner-bg.jpg" alt="">
+        </div>
+        <div>
+          <img src="./assets/images/banner-bg.jpg" alt="">
+        </div>
+        <div>
+          <img src="./assets/images/banner-bg.jpg" alt="">
+        </div>
   </div>
   </div>
 </section>
 
 <section class="sec-2 bg-black py-50">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center gy-5 gy-lg-0">
       <div class="col-lg-3">
         <div class="img-wrapper">
           <img src="./assets/images/section-2-img-1.jpg" alt="Image">
@@ -90,7 +101,7 @@ include('./include/header.php')
 
 <section class="footer py-10">
   <div class="container">
-    <div class="row">
+    <div class="row gy-5 gy-lg-0">
       <div class="col-lg-4 mx-auto">
         <div class="img-wrapper">
           <img src="./assets/images/footer-logo.png" alt="Footer Logo">
