@@ -164,7 +164,9 @@
   --text-150: 15rem;
   font-size: 62.5%;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 @font-face {
   font-family: "Agency-reg";
   font-style: normal;
