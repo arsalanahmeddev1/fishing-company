@@ -47,11 +47,11 @@ include('./include/header.php')
 <section class="sec-3">
   <div class="container">
     <h2 class="fs-30 fw-700">
-      This story begins long before 1984 with our founder, a
-      long haired motocross surfer, <span class="fs-20 fw-300"> who enjoyed customizing cars, motocross, surfing, building <br>
+      This story begins long before 1984 with our founder, a <br>
+      long haired motocross surfer, <p class="fs-17"> who enjoyed customizing cars, motocross, surfing, building <br>
         custom surfboards, and other outdoor pursuits. As he grew older, after many broken bones and <br>
         other casualties suffered in the pursuit of fun, he settled into the sport of fishing.
-      </span>
+      </p>
     </h2>
   </div>
 </section>

@@ -290,8 +290,11 @@ a {
   color: var(--black);
 }
 
-.sec-3 h2 span {
-  font-weight: 300 !important;
+.sec-3 h2 p {
+  font-family: "serif";
+  font-weight: 500 !important;
+  display: inline;
+  line-height: .9;
 }
 
 @media (min-width: 1570px) {
