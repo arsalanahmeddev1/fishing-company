@@ -14,10 +14,13 @@ include('./include/header.php')
       <img src="./assets/images/banner-bg.jpg" alt="">
     </div>
     <div>
-      <img src="./assets/images/banner-bg.jpg" alt="">
+      <img src="./assets/images/banner-bg-2.jpg" alt="">
     </div>
     <div>
-      <img src="./assets/images/banner-bg.jpg" alt="">
+      <img src="./assets/images/banner-bg-3.jpg" alt="">
+    </div>
+    <div>
+      <img src="./assets/images/banner-bg-4.jpg" alt="">
     </div>
   </div>
   </div>
