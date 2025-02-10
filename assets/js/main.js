@@ -1,3 +1,5 @@
+console.log(`Width: ${window.screen.width}, Height: ${window.screen.height}`);
+
 // for lazy load in images
 const images = document.querySelectorAll("img");
 images.forEach((img) => {
@@ -22,3 +24,5 @@ $('.hero-banner-slider').slick({
   autoplay: true,
   autoplaySpeed: 3000,
 });
+
+

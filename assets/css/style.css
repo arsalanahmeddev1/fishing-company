@@ -169,15 +169,15 @@ body {
   overflow-x: hidden;
 }
 @font-face {
-  font-family: "Agency-reg";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/AGENCYB_1.TTF");
-}
-@font-face {
   font-family: "Agency-bold";
   font-style: normal;
   font-weight: bold;
+  src: url("../fonts/AGENCYB_1.TTF");
+}
+@font-face {
+  font-family: "Agency-reg";
+  font-style: normal;
+  font-weight: normal;
   src: url("../fonts/AGENCYR_1.TTF");
 }
 @font-face {
@@ -252,6 +252,9 @@ li {
 a {
   text-decoration: none;
 }
+.container {
+  max-width: 1040px;
+}
 
 /* header */
 .header {
@@ -274,12 +277,14 @@ a {
   overflow: hidden;
 }
 .hero-banner h1 {
-  font-size: var(--text-50);
+  font-size: var(--text-45);
   line-height: 0.8;
+  font-weight: 600;
 }
 
 .hero-banner h1 span {
-  font-size: var(--text-32);
+  font-size: var(--text-30);
+  font-weight: 400;
 }
 .sec-2 .img-wrapper {
   display: flex;
@@ -288,9 +293,6 @@ a {
 .sec-2 .img-wrapper img {
   width: 100%;
   max-width: 30rem;
-}
-.sec-2 .container {
-  padding: 0 var(--text-56);
 }
 
 .sec-2 p.century {
@@ -306,23 +308,23 @@ a {
   color: var(--black);
   padding-bottom: 15rem;
 }
-
+.about-sec-2 h2,
 .sec-3 h2 {
   font-family: "Century-std-bold";
   color: var(--black);
   line-height: 1;
 }
-
+.about-sec-2 h2 span,
 .sec-3 h2 span {
   font-family: serif;
   font-weight: 300;
-  font-size: clamp(1rem, 1.3vw, 2.5rem);
+  font-size: clamp(1rem, 1.3vw, 1.7rem);
 }
-
+.about-sec-2 p,
 .sec-3 p {
   font-weight: light;
   font-size: var(--text-25);
-  font-size: clamp(1rem, 1.3vw, 2.5rem);
+  font-size: clamp(1rem, 1.3vw, 1.7rem);
   margin-bottom: var(--text-20);
   line-height: 1.2;
 }
@@ -335,14 +337,15 @@ a {
 }
 .sec-3 img {
   width: 100%;
-  max-width: 23rem;
+  max-width: 20rem;
+  margin-top: -2rem;
 }
-
+.about-sec-2 h2,
 .sec-3 h2 {
-  font-size: clamp(3rem, 2.5vw, 5rem);
+  font-size: clamp(3rem, 2.5vw, 3.4rem);
 }
 .sec-3 h2:last-child {
-  font-size: clamp(3rem, 5vw, 5rem);
+  font-size: clamp(3rem, 5vw, 4rem);
   margin-top: var(--text-100);
 }
 
@@ -352,9 +355,9 @@ a {
   background-position: center;
   background-size: cover;
   min-height: 100vh;
-  padding: 70rem 0;
+  padding: 48rem 0;
   position: relative;
-  margin-top: -31rem;
+  margin-top: -28rem;
 }
 
 .sec-4 h2 {
@@ -367,6 +370,7 @@ a {
 
 .sec-3 h2:last-child {
   margin-top: var(--text-80);
+  margin-top: 4rem;
   position: relative;
   z-index: 1;
   line-height: 1.2;
@@ -383,6 +387,7 @@ a {
 .footer-links a {
   color: var(--black);
   font-weight: 500;
+  font-size: var(--text-14);
 }
 .footer-links li {
   margin-bottom: var(--text-5);
@@ -390,6 +395,7 @@ a {
 .footer-links li:first-child {
   font-weight: 700;
   color: var(--black);
+  font-size: var(--text-14);
 }
 /* .hero-banner-slider img {
   position: absolute;
@@ -400,13 +406,13 @@ a {
   height: 100%;
 } */
 .hero-banner-slider {
-  height: 100%; /* Ensure the slider takes full height */
+  height: 100%;
 }
 
 .hero-banner-slider img {
   width: 100%;
-  height: 80vh; /* Full height of the viewport */
-  object-fit: cover; /* Prevent stretching */
+  height: 80vh;
+  /* object-fit: cover;  */
 }
 .hero-banner h1 {
   position: absolute;
@@ -418,11 +424,35 @@ a {
 .hero-banner {
   height: 80vh;
 }
+/* inner pages */
+.inner-banner h1 {
+  font-family: "Century-std-bold";
+}
+.about-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('../images/section-4-img-1.jpg') no-repeat center / cover;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about-sec-2 p {
+  font-family: 'serif';
+  color: var(--black);
+}
+
+.about-sec-2 .container {
+  max-width: 1125px;
+}
+
 /* responsive */
 @media (min-width: 1570px) {
-  .container {
-    max-width: 1680px;
-  }
+  .footer .container,
+.hero-banner .container,
+.header .container {
+  max-width: 1400px;
+}
 }
 /* banner end */
 
@@ -434,6 +464,8 @@ a {
 }
 .header .logo span {
   text-wrap: nowrap;
+  font-weight: 600;
+  /* font-family: 'Agency-bold'; */
 }
 @media (max-width: 1440px) {
   .sec-3 img {
@@ -441,15 +473,18 @@ a {
   }
   .hero-banner-slider img,
   .hero-banner {
-    height: 62vh;
+    height: 86vh;
+    object-position: top center;
+  }
+  .footer .container, .header .container, .hero-banner .container {
+    max-width: 1200px;
   }
 }
 
 @media (max-width: 1200px) {
-  .hero-banner-slider img,
-  .hero-banner {
-    height: 55vh;
-  }
+  .footer .container, .header .container, .hero-banner .container {
+    max-width: 1100px;
+}
 }
 
 @media (max-width: 1024px) {
@@ -461,6 +496,10 @@ a {
   .hero-banner {
     height: 50vh;
   }
+  .footer .container, .header .container, .hero-banner .container,
+  .container {
+    max-width: 900px;
+}
 }
 
 @media (max-width: 991px) {
@@ -521,11 +560,11 @@ a {
   .sec-3 .container {
     padding: 0;
   }
-
+  .about-sec-2 h2 span,
   .sec-3 h2 span {
     font-size: clamp(1.7rem, 1.3vw, 2.5rem);
   }
-
+  .about-sec-2 p,
   .sec-3 p {
     font-size: clamp(1.7rem, 1.3vw, 2.5rem);
     line-height: 1.2;

@@ -11,13 +11,16 @@ include('./include/header.php')
   </div>
   <div class="hero-banner-slider">
     <div>
-      <img src="./assets/images/banner-bg.jpg" alt="">
+      <img src="./assets/images/banner-img-1.jpg" alt="">
     </div>
     <div>
-      <img src="./assets/images/banner-bg.jpg" alt="">
+      <img src="./assets/images/banner-img-2.jpg" alt="">
     </div>
     <div>
-      <img src="./assets/images/banner-bg.jpg" alt="">
+      <img src="./assets/images/banner-img-3.jpg" alt="">
+    </div>
+    <div>
+      <img src="./assets/images/banner-img-4.jpg" alt="">
     </div>
   </div>
   </div>
@@ -56,7 +59,7 @@ include('./include/header.php')
 </section>
 
 <section class="sec-3 py-50 position-relative">
-  <div class="container px-80">
+  <div class="container">
     <h2 class="fs-50 fw-700">
       This story begins long before 1984 with our founder, a <br>
       long haired motocross surfer, <span class="fs-25"> who enjoyed customizing cars, motocross, surfing, building
@@ -80,7 +83,7 @@ include('./include/header.php')
       </div>
     </div>
     <p class="mt-20">
-      He’s a can-do guy with a typical type A personality, He’s always been full of innovative ideas and generous to a fault, which led to the inception of Fuck You Fishing. Now he wants to share his merchandise with the rest of the world. Lucky you
+      He’s a can-do guy with a typical type A personality, He’s always been full of innovative ideas and generous to a fault, which led to <br> the inception of Fuck You Fishing. Now he wants to share his merchandise with the rest of the world. Lucky you
     </p>
     <!-- Image -->
 
@@ -96,39 +99,6 @@ include('./include/header.php')
       Most people don’t read <br> these things so we’ll <br> just keep it short. <br> Until next time,<br> “Fuck You.”
     </h2>
   </div> -->
-</section>
-
-
-<section class="footer py-10">
-  <div class="container">
-    <div class="row gy-5 gy-lg-0">
-      <div class="col-lg-4 mx-auto">
-        <div class="img-wrapper">
-          <img src="./assets/images/footer-logo.png" alt="Footer Logo">
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <ul class="footer-links">
-          <li>Customer Support</li>
-          <li> <a href="javascript:;">Shipping & Delivery</a></li>
-          <li> <a href="javascript:;">Exchange & Return Policy</a></li>
-          <li> <a href="javascript:;">Payment</a></li>
-          <li> <a href="javascript:;">Contact Us</a></li>
-          <li> <a href="javascript:;">Order Tracking</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-3">
-        <ul class="footer-links">
-          <li>Company Info</li>
-          <li><a href="javascript:;">About us</a></li>
-          <li><a href="javascript:;">Privacy Policy</a></li>
-          <li><a href="javascript:;">Terms & Conditions</a></li>
-          <li><a href="javascript:;">Intellectual Property Rights</a></li>
-        </ul>
-
-      </div>
-    </div>
-  </div>
 </section>
 <?php include('./include/footer.php') ?>
 <?php include('./include/scripts.php') ?>
