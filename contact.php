@@ -16,7 +16,7 @@ include('./include/header.php');
         <div class="row gy-5 gy-lg-0">
             <div class="col-lg-6">
                 <h2>Contact</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <p class="ultimatum-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
 
                 <!-- Form -->
                 <form>

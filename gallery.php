@@ -38,9 +38,9 @@ include('./include/header.php');
 </section>
 
 <section class="gallery-image-section">
-    <div class="container">
-        <img src="./assets/images/gallery/cover-img.jpg" alt="Cover Image">
-    </div>
+    <!-- <div class="container"> -->
+        <!-- <img src="./assets/" alt="Cover Image"> -->
+    <!-- </div> -->
 </section>
 
 <?php include('./include/footer.php') ?>
