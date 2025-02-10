@@ -446,7 +446,7 @@ a {
   max-width: 1125px;
 }
 
-/* Gallery Image  */
+/* Gallery Page  */
 .grid-section {
   margin-bottom: var(--text-90);
   padding-top: var(--text-90);
@@ -473,7 +473,127 @@ a {
   object-fit: cover;
   object-position: top;
 }
-/* Gallery Image  */
+/* Gallery Page End */
+
+/* Contact Page */
+
+.contact-header {
+  position: relative;
+  min-height: 36rem;
+}
+
+.contact-header .text-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-header .text-heading h1 {
+  font-size: var(--text-50);
+  color: white;
+  font-family: "Century-std-bold";
+}
+
+.contact-header::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contact-header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -2;
+}
+
+.info {
+  font-family: "Century-std-bold";
+}
+
+.info .separator {
+  width: 100%;
+  height: 1px;
+  background-color: var(--black);
+}
+
+.info h2 {
+  font-size: var(--text-40);
+  color: var(--black);
+  font-family: "Century-std-bold";
+}
+
+.info p {
+  font-size: var(--text-14);
+}
+
+.info form {
+  font-family: "Century-std-bold";
+  margin-top: var(--text-40);
+}
+
+.info form .form-control {
+  padding: 1rem 0;
+}
+
+.info form input::placeholder {
+  color: var(--grey-600);
+}
+
+.info form label,
+.info form input,
+.info form textarea {
+  display: block;
+  font-size: var(--text-14);
+  padding: 0;
+}
+
+.info form input,
+.info form textarea {
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  border-bottom: 1px solid var(--grey-600);
+  border-radius: 3px;
+  margin-top: var(--text-5);
+  color: var(--grey);
+}
+
+.info form input:focus-visible,
+.info form textarea:focus-visible {
+  outline: 1px solid var(--grey-600);
+}
+
+.info form button {
+  border: none;
+  background-color: var(--black);
+  color: var(--default-color);
+  font-size: var(--text-12);
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  margin-top: 1rem;
+}
+
+.info ul li {
+  margin-bottom: var(--text-10);
+}
+.info ul li a {
+  color: var(--black);
+}
+
+/* Contact Page End */
 
 /* responsive */
 @media (min-width: 1570px) {

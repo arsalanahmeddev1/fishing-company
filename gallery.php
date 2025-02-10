@@ -1,5 +1,5 @@
 <?php
-$page_title = 'Home';
+$page_title = 'Gallery';
 include('./include/head.php');
 include('./include/header.php');
 ?>

@@ -18,8 +18,8 @@
           </span>
           <li><a href="javascript:;">About Us</a></li>
           <li><a href="javascript:;">Shop</a></li>
-          <li><a href="javascript:;">Gallery</a></li>
-          <li><a href="javascript:;">Contact</a></li>
+          <li><a href="gallery.php">Gallery</a></li>
+          <li><a href="contact.php">Contact</a></li>
           <li><a href="javascript:;"><i class="fa-solid fa-magnifying-glass"></i></a></li>
           <li><a href="javascript:;"><i class="fa-solid fa-cart-shopping"></i></a></li>
         </ul>
